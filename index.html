@@ -29,10 +29,21 @@
     .button-row {
       margin-bottom: 1rem;
     }
+
+    a {
+      font-weight: strong;
+      color: blue;
+    }
   </style>
   <script type="module" defer src="demo.js"></script>
 </head>
 <body>
+
+  <h1>Highlight Demo</h1>
+  <p>
+    <strong>Instructions:</strong> Click the button to highlight a random row. <br />Click anywhere on the dark area to dismiss.
+    Click <a id="link">here</a> to highlight this paragraph.
+  </p>
 
   <div class="button-row">
     <button id="demo-button">Highlight Random Row</button>
